@@ -19,9 +19,9 @@
 package main
 
 import (
+    "GoRTP/rtp"
     "fmt"
     "net"
-    "net/rtp"
     "time"
 )
 
