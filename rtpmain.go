@@ -19,11 +19,10 @@
 package main
 
 import (
-    //    "encoding/hex"
     "fmt"
     "net"
-    "time"
     "net/rtp"
+    "time"
 )
 
 var localPort = 5220

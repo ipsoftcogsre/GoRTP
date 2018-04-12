@@ -12,13 +12,13 @@ information about this structure run `go help gopath` and follow the
 instructions. The _rtp_ package is below the package _net_ to make clear that
 _rtp_ is a network related package.
 
-To build the package just run `go build net/rtp` and then `go install
-net/rtp`. To excecute the tests just run `go test net/rtp`. The tests check if
+To build the package just run `go build rtp` and then `go install
+rtp`. To excecute the tests just run `go test rtp`. The tests check if
 the code works with the current Go installation on your system. It should
 PASS.
 
 A demo program is available and is called _rtpmain_. Use `go build
-net/rtpmain` to build it. The command `go install net/rtpmain` installs it in
+rtpmain` to build it. The command `go install rtpmain` installs it in
 the `bin` directory of the main directory.
 
 ## How to use
@@ -26,7 +26,7 @@ the `bin` directory of the main directory.
 This is a pure RTP / RTCP stack and it does not contain any media processing,
 for example generating or packing the payload for audio or video codecs.
 
-The directory `src/net/rtpmain` contains an example Go program that performs a
+The file `rtpmain.go` contains an example Go program that performs a
 RTP some tests on _localhost_ that shows how to setup a RTP session, an
 output stream and how to send and receive RTP data and control events. Parts
 of this program are used in the package documentation.

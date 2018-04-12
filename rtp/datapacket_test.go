@@ -19,10 +19,10 @@
 package rtp
 
 import (
+    "flag"
     "fmt"
     "net"
     "testing"
-    "flag"
     "time"
 )
 

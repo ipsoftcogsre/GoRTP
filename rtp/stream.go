@@ -20,8 +20,8 @@ package rtp
 
 import (
     "crypto/rand"
-    "time"
     "sync"
+    "time"
 )
 
 const (
